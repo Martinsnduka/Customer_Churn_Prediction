@@ -5,7 +5,7 @@ Customer Churn Prediction — Machine Learning Project
 https://martinsnduka-customer-churn-prediction-app-wzbrli.streamlit.app/
 
 ##  Business Overview
-This project addresses a telecommunication problem by building a predictive model that identifies customers who are likely to churn — **before they do**.
+This project addresses a telecommunication problem by building a predictive model that identifies customers who are likely to churn before they do.
 
 ## Business Objective
  Predict whether a telecom customer will churn, enabling the business to intervene at the right time with the right offer.
@@ -16,12 +16,12 @@ This project addresses a telecommunication problem by building a predictive mode
 
 ## Dataset
 The dataset captures customer demographics, service usage, and billing information across the following features:
-**Age** — The customer's age in years. Helps identify whether older or younger customers are more likely to churn.
-**Gender** — Whether the customer is male or female. Used to detect any churn patterns across gender groups.
-**Contract Type** — The type of service agreement the customer is on (Month-to-Month, One Year, or Two Year). 
-**Monthly Charges** — The amount a customer is billed each month. Higher charges can increase dissatisfaction and likelihood of leaving.
-**Tech Support** — Whether the customer has a tech support add-on or not. Customers without support may experience more frustration, influencing churn.
-**Tenure** — How long (in months) the customer has been with the company. Longer tenure typically means greater loyalty and lower churn risk
+- **Age** : The customer's age in years. Helps identify whether older or younger customers are more likely to churn.
+- **Gender** : Whether the customer is male or female. Used to detect any churn patterns across gender groups.
+- **Contract Type** : The type of service agreement the customer is on (Month-to-Month, One Year, or Two Year). 
+- **Monthly Charges** : The amount a customer is billed each month. Higher charges can increase dissatisfaction and likelihood of leaving.
+- **Tech Support** : Whether the customer has a tech support add-on or not. Customers without support may experience more frustration, influencing churn.
+- **Tenure** : How long (in months) the customer has been with the company. Longer tenure typically means greater loyalty and lower churn risk
 
  **Note on feature selection:** **Internet Service and Total Charge** were intentionally excluded from model training. **Total Charges** is highly correlated with **Tenure × Monthly Charges** , introducing multicollinearity. Removing these features produced a cleaner model .
 
