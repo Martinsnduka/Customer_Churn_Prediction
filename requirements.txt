@@ -1,1 +1,7 @@
+streamlt
+numpy
+matplotlib
+seaborn
+pandas
+sklearn
 
